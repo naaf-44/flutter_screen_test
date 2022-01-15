@@ -32,10 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.white, elevation: 0),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[faqButton(), aboutUsButton()],
-        ),
+        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[faqButton(), aboutUsButton()]),
       ),
     );
   }
