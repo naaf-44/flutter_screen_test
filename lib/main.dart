@@ -31,9 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
     fullWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.white, elevation: 0),
-      body: Center(
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[faqButton(), aboutUsButton()]),
-      ),
+      body: Center(child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[faqButton(), aboutUsButton()])),
     );
   }
 
